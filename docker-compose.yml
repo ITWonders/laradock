@@ -92,6 +92,9 @@ services:
             - "443:443"
         links:
             - php-fpm
+        #tty: true
+        #stdin_open: true    
+        #command: "/bin/sh"
 
 ### Apache Server Container #################################
 
